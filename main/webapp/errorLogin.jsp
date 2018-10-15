@@ -5,7 +5,7 @@
     <title>Error</title>
 </head>
 <body>
-<h1>Error: enter FirstName and LastName</h1>
-<td><a href="loginP.jsp">To input</a></td>
+<h1>Error: invalid login or password</h1>
+<td><a href="index.jsp">To input</a></td>
 </body>
 </html>

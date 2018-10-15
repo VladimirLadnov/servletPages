@@ -29,9 +29,9 @@ public class LoginServlet extends HttpServlet {
         if (s!= null && s.equals(password)) {
             lastLogin =login;
             response.setStatus(200);
-            response.sendRedirect("/mytest");
+            response.sendRedirect("loginP.jsp");
         } else {
-            response.sendError(400);
+            response.sendRedirect("errorLogin.jsp");
         }
     }
 
